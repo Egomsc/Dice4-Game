@@ -1,16 +1,13 @@
 body{
-    background-color:bisque
-   
+    background-color:bisque;
 }
 .container{
     display: flex;
     gap: 15px;
     width: 100%;
     justify-content: center;
-    text-align: center;
-  
+    text-align: center; 
 }
-
 .image{
     width: 200px;
     height: 200px;
@@ -32,18 +29,27 @@ h1{
     font-family: 'indie Flower', cursive;
     color: rgba(0, 0, 255, 0.847);
 }
-
 h4{
     font-family: 'Indie Flower', cursive;
     font-size: 1.4rem;
     color: green;
 }
-
 @media(max-width: 480px){
     .container{
         display: block;
-        
+        height: 120px;   
     }
+    .image{
+    margin: 0px;
+    width: 150px;
+    height: 120px;
+}
+   h1{
+     margin: 0px;
+   font-size: 1.5rem;
+   color: blueviolet;
+   align-items: center;
+}
 }
 
 
