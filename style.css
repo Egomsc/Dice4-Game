@@ -28,6 +28,7 @@ h1{
 .foot{
     font-family: 'indie Flower', cursive;
     color: rgba(0, 0, 255, 0.847);
+   text-shadow: 1px 1px pink;
 }
 h4{
     font-family: 'Indie Flower', cursive;
