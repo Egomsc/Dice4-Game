@@ -1,0 +1,56 @@
+body{
+    background-color:bisque
+   
+}
+.container{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+h1{
+   font-family: 'Lobster', cursive;
+   margin: 30px;
+   font-size: 3rem;
+   color: blueviolet;
+   align-items: center;
+}
+.btn{
+    margin-top: 40px;
+    background-color:cyan;
+    color: black;
+    border-radius: 50px;
+}
+.foot{
+    font-family: 'indie Flower', cursive;
+    color: rgba(0, 0, 255, 0.847);
+}
+
+h4{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    color: green;
+}
+
+@media(max-width: 480px){
+    .container{
+        display: block;
+        
+    }
+}
+
+
+
+
+
+    
+
+
+
